@@ -1,8 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Microsoft.Owin.Hosting;
+using System;
+using System.Net.Http;
+using System.ServiceProcess;
 
 namespace MunicipalityTaxCalculator
 {
@@ -10,6 +9,12 @@ namespace MunicipalityTaxCalculator
     {
         static void Main(string[] args)
         {
+            ServiceBase[] ServicesToRun;
+            ServicesToRun = new ServiceBase[]
+            {
+                new SelfHostService()
+            };
+            ServiceBase.Run(ServicesToRun);
         }
     }
 }

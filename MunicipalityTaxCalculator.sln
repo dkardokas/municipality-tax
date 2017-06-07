@@ -5,6 +5,10 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MunicipalityTaxCalculator", "MunicipalityTaxCalculator\MunicipalityTaxCalculator.csproj", "{2B23EE47-597D-4332-8C10-06CE58C9C3AB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MunicipalityTaxCalculator.Tests", "MunicipalityTaxCalculator.Tests\MunicipalityTaxCalculator.Tests.csproj", "{32BC73A2-EF18-4C1D-AA7C-62F85325A1EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MunicipalityTaxCalculator.Client", "MunicipalityTaxCalculator.Client\MunicipalityTaxCalculator.Client.csproj", "{D75FABC5-DD94-4FA7-A0EB-521A5907AB55}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{2B23EE47-597D-4332-8C10-06CE58C9C3AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2B23EE47-597D-4332-8C10-06CE58C9C3AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2B23EE47-597D-4332-8C10-06CE58C9C3AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32BC73A2-EF18-4C1D-AA7C-62F85325A1EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32BC73A2-EF18-4C1D-AA7C-62F85325A1EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32BC73A2-EF18-4C1D-AA7C-62F85325A1EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32BC73A2-EF18-4C1D-AA7C-62F85325A1EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D75FABC5-DD94-4FA7-A0EB-521A5907AB55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D75FABC5-DD94-4FA7-A0EB-521A5907AB55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D75FABC5-DD94-4FA7-A0EB-521A5907AB55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D75FABC5-DD94-4FA7-A0EB-521A5907AB55}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
